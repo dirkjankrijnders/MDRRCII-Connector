@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "20 apr 2014"
-Rev ""
-Comp ""
+Title "MDRRCII Connector"
+Date "21 apr 2014"
+Rev "0"
+Comp "PythSoft"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -847,7 +847,7 @@ Wire Wire Line
 Wire Notes Line
 	11200 4350 7000 4350
 Wire Notes Line
-	7000 4350 7000 6550
+	7000 4350 7000 7200
 Text Notes 9200 6300 0    60   ~ 0
 S88 Interface
 Text Notes 7450 2350 0    60   ~ 0
@@ -978,7 +978,7 @@ Connection ~ 2150 4250
 Wire Wire Line
 	2250 4300 2250 4250
 Connection ~ 2250 4250
-Text Notes 1050 5550 0    60   ~ 0
+Text Notes 1050 5350 0    60   ~ 0
 I2C Interface
 $Comp
 L OPTO-TRANSISTOR4 U5
@@ -1676,4 +1676,58 @@ Wire Wire Line
 	6750 4000 6750 4050
 Wire Wire Line
 	6750 4650 6600 4650
+Wire Notes Line
+	500  5550 2000 5550
+Wire Notes Line
+	2000 5550 2000 6100
+Wire Notes Line
+	2000 6100 5400 6100
+Wire Notes Line
+	5400 6100 5400 6350
+Wire Notes Line
+	5400 6350 6150 6350
+Wire Notes Line
+	6150 6350 6150 6750
+Wire Notes Line
+	6150 6750 6950 6750
+Wire Notes Line
+	550  3950 3650 3950
+Wire Notes Line
+	3650 3950 3650 6050
+Wire Notes Line
+	3650 3900 3650 3850
+Wire Notes Line
+	3650 3850 5200 3850
+Wire Notes Line
+	5200 3850 5200 6100
+Wire Notes Line
+	6950 4350 6950 3350
+Wire Notes Line
+	6950 3350 5150 3350
+Wire Notes Line
+	5150 3350 5150 3850
+Wire Notes Line
+	5150 3300 5150 2650
+Wire Notes Line
+	3750 2650 6750 2650
+Wire Notes Line
+	6750 2650 6750 2450
+Wire Notes Line
+	6750 2450 8800 2450
+Wire Notes Line
+	8800 2450 8800 3350
+Wire Notes Line
+	6900 3350 10950 3350
+Wire Notes Line
+	8750 2450 8750 500 
+Wire Notes Line
+	10950 3350 10950 2800
+Wire Notes Line
+	10950 2800 11200 2800
+Wire Notes Line
+	3750 2650 3750 2450
+Wire Notes Line
+	3750 2450 3100 2450
+Wire Notes Line
+	3100 2450 3100 550 
 $EndSCHEMATC
