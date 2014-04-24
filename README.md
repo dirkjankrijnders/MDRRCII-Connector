@@ -3,6 +3,8 @@ MDRRCII-Connector
 
 This is a small interface board to connect the Mini STM32 board as used in MDRRC II its peripherals.
 
+Unchecked Reichelt shopping card:
+http://www.reichelt.de/?ACTION=20;AWKID=901501;PROVID=2084
 
 LICENSE
 -------
