@@ -53,8 +53,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1.5 1.5)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 1.016)
+    (pad_size 3 3)
+    (pad_drill 3)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFBF)
@@ -565,14 +565,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 42806E04) (tstamp 534AE203)
+  (module SM0805 (layer F.Cu) (tedit 537E53EC) (tstamp 534AE203)
     (at 158.625 129.125 180)
     (path /534843A3)
     (attr smd)
     (fp_text reference R4 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 100 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value 100 (at -3.875 0.125 180) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.127))
@@ -593,14 +593,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 42806E04) (tstamp 534AE210)
+  (module SM0805 (layer F.Cu) (tedit 537E53F4) (tstamp 534AE210)
     (at 158.875 131.875 180)
     (path /534843B7)
     (attr smd)
     (fp_text reference R5 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 100 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value 100 (at -3.625 0.125 180) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.127))
@@ -649,14 +649,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 42806E04) (tstamp 534AE22A)
+  (module SM0805 (layer F.Cu) (tedit 537E5401) (tstamp 534AE22A)
     (at 154.875 132.625 90)
     (path /534843DD)
     (attr smd)
     (fp_text reference R9 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 4K7 (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value 4K7 (at 2.375 0.875 90) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.127))
@@ -845,14 +845,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 42806E04) (tstamp 534AE285)
+  (module SM0805 (layer F.Cu) (tedit 537E5236) (tstamp 534AE285)
     (at 120.5 124.5 180)
     (path /53499240)
     (attr smd)
     (fp_text reference C3 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 100nF (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value 100nF (at -0.25 1.75 180) (layer F.SilkS) hide
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.127))
@@ -1237,14 +1237,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 42806E04) (tstamp 534AE33B)
+  (module SM0805 (layer F.Cu) (tedit 537E4C64) (tstamp 534AE33B)
     (at 127 158.75)
     (path /53459913)
     (attr smd)
-    (fp_text reference C12 (at 0 0) (layer F.SilkS)
+    (fp_text reference C12 (at -3.25 0) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 100nF (at 0 0) (layer F.SilkS) hide
+    (fp_text value 100nF (at 3.5 0) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.127))
@@ -1424,14 +1424,14 @@
       (net 10 GND))
   )
 
-  (module CP_10x21mm (layer F.Cu) (tedit 535419D7) (tstamp 534AE3DF)
+  (module CP_10x21mm (layer F.Cu) (tedit 537EE234) (tstamp 534AE3DF)
     (at 157.625 145.375 180)
     (descr "Capacitor, pol, cyl 10x21mm")
     (path /53455C51)
     (fp_text reference C8 (at 5.625 -4.625 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value 470uF/25V (at 10.625 4.375 180) (layer F.SilkS)
+    (fp_text value 470uF/25V (at 7.625 5.875 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -2.413 -4.445) (end 2.413 -4.445) (layer F.SilkS) (width 0.254))
@@ -1869,7 +1869,7 @@
       (net 5 BOOST1_Red))
   )
 
-  (module M2 (layer F.Cu) (tedit 53541AD0) (tstamp 53518966)
+  (module M2 (layer F.Cu) (tedit 537EE268) (tstamp 53518966)
     (at 103 109.25)
     (fp_text reference M2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1877,10 +1877,10 @@
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module M2 (layer F.Cu) (tedit 53541AC0) (tstamp 53518980)
+  (module M2 (layer F.Cu) (tedit 537EE27C) (tstamp 53518980)
     (at 103 157.75)
     (fp_text reference M2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1888,10 +1888,10 @@
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module M2 (layer F.Cu) (tedit 53541AB4) (tstamp 535189B2)
+  (module M2 (layer F.Cu) (tedit 537EE274) (tstamp 535189B2)
     (at 179 157.75)
     (fp_text reference M2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1899,10 +1899,10 @@
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module M2 (layer F.Cu) (tedit 53541AE2) (tstamp 535189C0)
+  (module M2 (layer F.Cu) (tedit 537EE257) (tstamp 535189C0)
     (at 177.75 101)
     (fp_text reference M2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1910,7 +1910,7 @@
     (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 1.25 8.25) (size 2 2) (drill 2) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 1.25 8.25) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module pin_array_14x2 (layer F.Cu) (tedit 5354159C) (tstamp 535143D6)
