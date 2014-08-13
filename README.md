@@ -10,7 +10,9 @@ http://www.reichelt.de/?ACTION=20;AWKID=901501;PROVID=2084
 
 STATUS
 ------
-Board for Rev.0 are on order...
+Board for Rev.0 are on order and recieved. The first board is build and very lightly tested with MDRRC version one, due to a rather lengthy remodeling of my train room (well actually, the creation of...). Below is a photo of the prototype.
+
+![Photo of the first prototype](Output/Rev.0/IMG_1077.png)
 
 LICENSE
 -------
