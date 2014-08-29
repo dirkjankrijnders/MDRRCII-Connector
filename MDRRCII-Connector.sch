@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:pyth
 LIBS:MDRRCII-Connector-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -769,14 +769,12 @@ F 3 "" H 6750 4000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6600 4650 6600 4800
-Text GLabel 5700 4650 1    60   BiDi ~ 0
+Text GLabel 5800 4650 1    60   BiDi ~ 0
 I2C_SDA
 Text GLabel 5800 5550 3    60   BiDi ~ 0
 I2C_SCL
 Wire Wire Line
 	5800 5550 5800 5400
-Wire Wire Line
-	5700 4800 5700 4650
 Text GLabel 5400 4650 1    60   Output ~ 0
 Prog_track_relay
 Wire Wire Line
@@ -1738,4 +1736,6 @@ Wire Notes Line
 	3750 2450 3100 2450
 Wire Notes Line
 	3100 2450 3100 550 
+Wire Wire Line
+	5800 4800 5800 4650
 $EndSCHEMATC
