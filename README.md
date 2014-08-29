@@ -10,9 +10,22 @@ http://www.reichelt.de/?ACTION=20;AWKID=901501;PROVID=2084
 
 STATUS
 ------
-Board for Rev.0 are on order and recieved. The first board is build and very lightly tested with MDRRC version one, due to a rather lengthy remodeling of my train room (well actually, the creation of...). Below is a photo of the prototype.
+Board for Rev.0 are on order and recieved. The first board is build and very lightly tested with MDRRC version one, due to a rather lengthy remodeling of my train room (well actually, the creation of...). Below is a photo of the prototype. Testing with MDRRC-II is under way though.
 
 ![Photo of the first prototype](Output/Rev.0/IMG_1077.png)
+
+<table>
+<tr>
+<th>Function</th><th>test</th>
+</tr>
+<tr><td>Power</td><td>Passed</td></tr>
+<tr><td>Booster connection</td><td>Passed</td></tr>
+<tr><td>S88N</td><td>Passed*</td></tr>
+<tr><td>I2C</td><td>Failed, see issue #1</td></tr>
+<tr><td>Programming</td><td>Untested</td></tr>
+<tr><td>Expressnet</td><td>Untested</td></tr>
+</table>
+* Works, but S88N signal specifications remain untested until now.
 
 LICENSE
 -------
